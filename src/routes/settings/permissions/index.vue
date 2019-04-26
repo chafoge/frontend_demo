@@ -29,7 +29,7 @@
         },
         cLoad:{
           params:{},
-          url: 'https://newbackend.groe.me/settings_permission/get_all',
+          url: 'https://bdemo.groe.me/settings_permission/get_all',
           data: {},
         }
       }

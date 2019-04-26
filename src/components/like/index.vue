@@ -45,7 +45,7 @@
             relation_id: this.relation_id,
             relation_type: '',
           },
-          url: 'https://newbackend.groe.me/like/update',
+          url: 'https://bdemo.groe.me/like/update',
           data: {},
           request: false
         },
@@ -55,7 +55,7 @@
             relation_type: '',
             user_id: this.$route.params.id
           },
-          url: 'https://newbackend.groe.me/like/get_all',
+          url: 'https://bdemo.groe.me/like/get_all',
           data: {},
           request: false
         },

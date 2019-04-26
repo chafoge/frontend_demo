@@ -67,7 +67,7 @@
         errors: null,
         social_signup_data: null,
         signup_user:{
-          url: 'https://newbackend.groe.me/authenticate/signup',
+          url: 'https://bdemo.groe.me/authenticate/signup',
           params: {
             type: 1,
             role: 1,

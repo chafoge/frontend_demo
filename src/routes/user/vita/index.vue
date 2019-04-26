@@ -75,11 +75,11 @@
           params: {
             user_id: null
           },
-          url: 'https://newbackend.groe.me/user_vita/get_all',
+          url: 'https://bdemo.groe.me/user_vita/get_all',
           data: {},
         },
         create_user_vita:{
-          url: 'https://newbackend.groe.me/user_vita/vita/create',
+          url: 'https://bdemo.groe.me/user_vita/vita/create',
           reload: {action: 'reload', section: 'vitas'},
           params: {
             user_id: null,

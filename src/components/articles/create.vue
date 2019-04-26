@@ -41,13 +41,13 @@
             name: '',
             value: ''
           },
-          url: 'https://newbackend.groe.me/post/create',
+          url: 'https://bdemo.groe.me/post/create',
           data: {},
           request: false
         },
         inputs_create_article:{
           name:{
-            url: 'https://newbackend.groe.me/post/create',
+            url: 'https://bdemo.groe.me/post/create',
             label: 'Überschrift',
             name: 'name',
             value:'',
@@ -59,7 +59,7 @@
             error_class: '',
           },
           value:{
-            url: 'https://newbackend.groe.me/posts/create_post',
+            url: 'https://bdemo.groe.me/posts/create_post',
             label: 'Beitrag',
             name: 'value',
             value:'',

@@ -59,7 +59,7 @@
           {name: 'Passwort'},
         ],
         cload:{
-          url: 'https://newbackend.groe.me/user_admin/get_one',
+          url: 'https://bdemo.groe.me/user_admin/get_one',
           params:{
             user_id: null
           },
@@ -119,10 +119,10 @@
     methods:{
       set_request_url(){
         if(this.$$helper.edit.cut_route_name_prefix(this.$route.name) === 'user'){
-          this.cload.url = 'https://newbackend.groe.me/user_admin/get_one'
+          this.cload.url = 'https://bdemo.groe.me/user_admin/get_one'
         }
         else if(this.$$helper.edit.cut_route_name_prefix(this.$route.name) === 'users'){
-          this.cload.url = 'https://newbackend.groe.me/users_admin/get_one'
+          this.cload.url = 'https://bdemo.groe.me/users_admin/get_one'
         }
       },
       get_cload () {

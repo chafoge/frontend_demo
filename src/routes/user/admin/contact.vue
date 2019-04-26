@@ -180,10 +180,10 @@
       },
      set_url (data) {
         if(typeof data === 'object' && this.$$helper.length(data) > 0  ){
-          return 'https://newbackend.groe.me/user_admin/contact/update'
+          return 'https://bdemo.groe.me/user_admin/contact/update'
         }
         else {
-          return 'https://newbackend.groe.me/user_admin/contact/create'
+          return 'https://bdemo.groe.me/user_admin/contact/create'
         }
       }
     },

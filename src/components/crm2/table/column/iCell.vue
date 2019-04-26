@@ -75,7 +75,7 @@
           user_id: this.row.user_id
         }
 
-        this.$$request.post.data('https://newbackend.groe.me/user_crm/user/delete', params)
+        this.$$request.post.data('https://bdemo.groe.me/user_crm/user/delete', params)
           .then((response) => data = response)
 
         // if('update' in data){

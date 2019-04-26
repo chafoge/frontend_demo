@@ -55,7 +55,7 @@
       return{
         reload: { action: 'reload', section: 'users_admin' },
         update_user:{
-          url: 'https://newbackend.groe.me/user_admin/user/update',
+          url: 'https://bdemo.groe.me/user_admin/user/update',
           reload: { action: 'reload', section: 'users_admin' },
           params: {
             user_id: null,
@@ -85,7 +85,7 @@
           }
         },
         update_user_gender:{
-          url: 'https://newbackend.groe.me/user_admin/gender/update',
+          url: 'https://bdemo.groe.me/user_admin/gender/update',
           reload: { action: 'reload', section: 'users_admin' },
           params: {
             user_id: null, //'get->id',
@@ -116,13 +116,13 @@
     computed:{
       gender_url(){
         return 'gender' in this.cload && this.cload.gender !== null
-          ? 'https://newbackend.groe.me/user_admin/gender/create'
-          : 'https://newbackend.groe.me/user_admin/gender/update'
+          ? 'https://bdemo.groe.me/user_admin/gender/create'
+          : 'https://bdemo.groe.me/user_admin/gender/update'
       },
       description_url(){
         return 'description' in this.cload && this.cload.description !== null
-          ? 'https://newbackend.groe.me/user_admin/description/create'
-          : 'https://newbackend.groe.me/user_admin/description/update'
+          ? 'https://bdemo.groe.me/user_admin/description/create'
+          : 'https://bdemo.groe.me/user_admin/description/update'
       }
     },
     mounted(){

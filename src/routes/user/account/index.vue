@@ -68,7 +68,7 @@
           { name: 'AUSGANG'},
         ],
         create_user_account:{
-          url: 'https://newbackend.groe.me/user_account/create',
+          url: 'https://bdemo.groe.me/user_account/create',
           reload: {action: 'reload', section: 'accounts'},
           params: {
             currency: 'EUR',
@@ -91,7 +91,7 @@
           }
         },
         cLoad:{
-          url: 'https://newbackend.groe.me/user_account/get_all',
+          url: 'https://bdemo.groe.me/user_account/get_all',
           params: {
             user_id: null,
             limit: 5,

@@ -43,7 +43,7 @@
       return{
         message: '',
         user_password:{
-          url: 'https://newbackend.groe.me/user_admin/secret/create',
+          url: 'https://bdemo.groe.me/user_admin/secret/create',
           params: {
             user_id: null,
           },

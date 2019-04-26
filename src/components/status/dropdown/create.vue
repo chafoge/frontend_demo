@@ -40,7 +40,7 @@
           edit_elements: false
         },
         createStatusItem: {
-          url: 'https://newbackend.groe.me/list/create',
+          url: 'https://bdemo.groe.me/list/create',
           inputs:{
             name: {
               type: 'text',

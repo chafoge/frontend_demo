@@ -24,7 +24,7 @@ export default {
       store.commit('update_lists', {list_group: name, list: []})
 
       //get request
-      await request.post.data('https://newbackend.groe.me/list/get_one',{ list_group: name })
+      await request.post.data('https://bdemo.groe.me/list/get_one',{ list_group: name })
         .then(function (response) {
           store.commit('update_lists', {list_group: name, list: response})
           list = response

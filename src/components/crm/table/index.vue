@@ -163,7 +163,7 @@
       //
       //   let request = {
       //     name: 'lists',
-      //     uri: 'https://newbackend.groe.me/list/get_all',
+      //     uri: 'https://bdemo.groe.me/list/get_all',
       //     list_groups: lists
       //   }
       //

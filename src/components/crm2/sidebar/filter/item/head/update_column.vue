@@ -15,7 +15,7 @@
         v-if="active.edit"
         method="update"
         :cload="{}"
-        url="https://newbackend.groe.me/user_crm/custom_table_field/update"
+        url="https://bdemo.groe.me/user_crm/custom_table_field/update"
         :inputs="{
           name: {
             name: column.name,
@@ -91,7 +91,7 @@
         this.$emit('input', false)
       },
       delete_column () {
-        this.$$request.post.data('https://newbackend.groe.me/user_crm/custom_table_field/delete', {
+        this.$$request.post.data('https://bdemo.groe.me/user_crm/custom_table_field/delete', {
           id: this.column.fieldId
         }).then((response) => this.reload_delete(response))
         this.active.delete = false

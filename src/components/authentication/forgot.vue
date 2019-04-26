@@ -33,7 +33,7 @@
       return{
         errors: null,
         reset_password:{
-          url: 'https://newbackend.groe.me/authenticate/forgot',
+          url: 'https://bdemo.groe.me/authenticate/forgot',
           params: {
 
           },

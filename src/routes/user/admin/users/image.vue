@@ -73,7 +73,7 @@
           edit_upload: false
         },
         upload_user_image:{
-          url: 'https://newbackend.groe.me/user_admin/image/create',
+          url: 'https://bdemo.groe.me/user_admin/image/create',
           params:{
             user_id: null,
             file_type: 'user_image'
@@ -81,7 +81,7 @@
           data: []
         },
         delete_user_image:{
-          url: 'https://newbackend.groe.me/user_admin/image/delete',
+          url: 'https://bdemo.groe.me/user_admin/image/delete',
           params: {
             user_id: null
           },

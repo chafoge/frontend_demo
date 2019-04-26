@@ -32,7 +32,7 @@
     data(){
       return{
         update_bank:{
-          url: 'https://newbackend.groe.me/user_admin/bank/update',
+          url: 'https://bdemo.groe.me/user_admin/bank/update',
           reload:{action: 'reload', section: 'users_admin'},
           params: {
             user_id: null,
@@ -83,10 +83,10 @@
       },
       url () {
         if( this.method === 'update' ){
-          return 'https://newbackend.groe.me/user_admin/bank/update'
+          return 'https://bdemo.groe.me/user_admin/bank/update'
         }
         else {
-          return 'https://newbackend.groe.me/user_admin/bank/create'
+          return 'https://bdemo.groe.me/user_admin/bank/create'
         }
       }
     },

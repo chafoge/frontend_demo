@@ -44,7 +44,7 @@
       return{
         activeEdit: true,
         update_user_account:{
-          url: 'https://newbackend.groe.me/user_account/update',
+          url: 'https://bdemo.groe.me/user_account/update',
           reload: {action: 'reload', section: 'accounts'},
           params: {
             account_id: 'get->id',

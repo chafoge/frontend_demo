@@ -37,7 +37,7 @@
         </p>
         <edit_elements
           button="ERSTELLEN"
-          url="https://newbackend.groe.me/settings_permission/create"
+          url="https://bdemo.groe.me/settings_permission/create"
           :inputs="{
             user_type: {
               name: 'Nutzer Typ',

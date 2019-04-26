@@ -18,8 +18,8 @@ export default function (fields, baseColumns) {
       id: field.value + '.value',
       name: field.name,
       type: field.field_type,
-      create_url: 'https://newbackend.groe.me/user_crm/custom_field_value/create',
-      update_url: 'https://newbackend.groe.me/user_crm/custom_field_value/update',
+      create_url: 'https://bdemo.groe.me/user_crm/custom_field_value/create',
+      update_url: 'https://bdemo.groe.me/user_crm/custom_field_value/update',
       params:{
         id: 'get_' + field.value + '.id',
         relation_id: 'get_' + relation_type + '.id',

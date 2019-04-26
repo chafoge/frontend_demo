@@ -33,7 +33,7 @@
       return{
         errors: null,
         reset_password:{
-          url: 'https://newbackend.groe.me/authenticate/reset_password',
+          url: 'https://bdemo.groe.me/authenticate/reset_password',
           params: {
             reset_token: this.$route.params.token
           },

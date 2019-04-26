@@ -2,7 +2,7 @@
   <div class="user_crm">
     <crm
       :key="key"
-      url="https://newbackend.groe.me/user_crm/get_all"
+      url="https://bdemo.groe.me/user_crm/get_all"
       :crm="user"/>
   </div>
 </template>
@@ -38,8 +38,8 @@
               name: 'Vorname',
               type: 'text',
               params: {user_id: 'get_users.id'},
-              create_url: 'https://newbackend.groe.me/user_crm/user/create',
-              update_url: 'https://newbackend.groe.me/user_crm/user/update',
+              create_url: 'https://bdemo.groe.me/user_crm/user/create',
+              update_url: 'https://bdemo.groe.me/user_crm/user/update',
               rows: []
             },
             {
@@ -48,8 +48,8 @@
               name: 'Nachname',
               type: 'text',
               params: {user_id: 'get_users.id'},
-              create_url: 'https://newbackend.groe.me/user_crm/user/create',
-              update_url: 'https://newbackend.groe.me/user_crm/user/update',
+              create_url: 'https://bdemo.groe.me/user_crm/user/create',
+              update_url: 'https://bdemo.groe.me/user_crm/user/update',
               rows: []
             },
             // {
@@ -59,8 +59,8 @@
             //   type: 'select',
             //   list: 'user_role',
             //   params: {user_id: 'get_users.id'},
-            //   create_url: 'https://newbackend.groe.me/user_crm/user/create',
-            //   update_url: 'https://newbackend.groe.me/user_crm/user/update',
+            //   create_url: 'https://bdemo.groe.me/user_crm/user/create',
+            //   update_url: 'https://bdemo.groe.me/user_crm/user/update',
             //   rows: []
             // }
           ]

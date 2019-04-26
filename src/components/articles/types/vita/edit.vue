@@ -64,7 +64,7 @@
       return{
         activeEdit: true,
         update_user_vita:{
-          url: 'https://newbackend.groe.me/user_vita/vita/update',
+          url: 'https://bdemo.groe.me/user_vita/vita/update',
           reload: {action: 'reload', section: 'vitas'},
           params: {
             user_id: null,
@@ -82,7 +82,7 @@
           }
         },
         update_user_vita_date:{
-          url: 'https://newbackend.groe.me/user_vita/date/update',
+          url: 'https://bdemo.groe.me/user_vita/date/update',
           reload: {action: 'reload', section: 'vitas'},
           params: {
             user_id: null,
@@ -100,7 +100,7 @@
           }
         },
         update_user_vita_company:{
-          url: 'https://newbackend.groe.me/user_vita/company/update',
+          url: 'https://bdemo.groe.me/user_vita/company/update',
           reload: {action: 'reload', section: 'vitas'},
           params: {
             user_id: null,
@@ -114,7 +114,7 @@
           }
         },
         update_user_vita_adress:{
-          url: 'https://newbackend.groe.me/user_vita/adress/update',
+          url: 'https://bdemo.groe.me/user_vita/adress/update',
           reload: {action: 'reload', section: 'vitas'},
           params: {
             user_id: null,

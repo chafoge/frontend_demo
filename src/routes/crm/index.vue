@@ -1,6 +1,6 @@
 <template>
   <div class="user_crm">
-    <crm url="https://newbackend.groe.me/user_crm/get_all"/>
+    <crm url="https://bdemo.groe.me/user_crm/get_all"/>
   </div>
 </template>
 
@@ -15,15 +15,15 @@
         crms:[
           {
             name: 'Adminverwaltung',
-            url: 'https://newbackend.groe.me/user_crm/get_all'
+            url: 'https://bdemo.groe.me/user_crm/get_all'
           },
           {
             name: 'Nutzerverwaltung',
-            url: 'https://newbackend.groe.me/user_crm/get_all'
+            url: 'https://bdemo.groe.me/user_crm/get_all'
           },
           {
             name: 'Firmenverwaltung',
-            url: 'https://newbackend.groe.me/user_crm/get_all'
+            url: 'https://bdemo.groe.me/user_crm/get_all'
           },
         ]
       }

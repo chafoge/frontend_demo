@@ -104,7 +104,7 @@
           list: 'status_dependencys'
         },
         createTableField:{
-          url: 'https://newbackend.groe.me/user_crm/custom_table_field/create',
+          url: 'https://bdemo.groe.me/user_crm/custom_table_field/create',
           params: {
             table: 'users',
             type: null,

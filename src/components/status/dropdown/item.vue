@@ -46,7 +46,7 @@
         },
         color: undefined,
         updateStatusItem: {
-          url: 'https://newbackend.groe.me/list/update',
+          url: 'https://bdemo.groe.me/list/update',
           inputs:{
             name: {
               type: 'text',

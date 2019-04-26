@@ -26,7 +26,7 @@
                 params: {
                   permission_id: permission.id
                 },
-                url: 'https://newbackend.groe.me/settings_permission/delete',
+                url: 'https://bdemo.groe.me/settings_permission/delete',
                 data: {},
                 request: false
               }"/>
@@ -40,7 +40,7 @@
           <td>
             <edit_elements
               method="update"
-              url="https://newbackend.groe.me/settings_permission/update"
+              url="https://bdemo.groe.me/settings_permission/update"
               :readonly="false"
               :inputs="{ permission:{
                 name: 'Berechtigung',

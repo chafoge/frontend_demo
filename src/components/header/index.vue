@@ -44,7 +44,7 @@
           params: {
             user_id: this.uid
           },
-          url: 'https://newbackend.groe.me/header/get_one',
+          url: 'https://bdemo.groe.me/header/get_one',
           data: {},
           request: false
         }
